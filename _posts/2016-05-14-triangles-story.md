@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Triangles Story"
+description: "A quest to create a logo"
 date:   2016-05-14 17:04:20 +0530
 categories:
 ---

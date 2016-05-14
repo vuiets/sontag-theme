@@ -10,4 +10,4 @@
 - Bundler
 
 ## WIP
-Still very much a work in progress.
+A prototype is ready.
