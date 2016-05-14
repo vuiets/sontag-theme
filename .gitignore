@@ -1,0 +1,8 @@
+# jekyll
+_site
+_drafts
+.sass-cache
+.jekyll-metadata
+
+# dependency management
+Gemfile
