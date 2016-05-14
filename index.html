@@ -7,7 +7,7 @@ layout: default
     <li class="pl0 pv3 pv4-ns serif">
         <a class="db pv1 f3 f2-m f-subheadline-l link dim dark-gray" href="{{ post.url | prepend: site.baseurl }}">
           {{ post.title }}
-          <span class="f5 f4-m f3-l db ph2-ns pb1 dark-gray">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <span class="f5 f4-m f3-l db ph2-ns pb1 dark-gray">{{ post.date | date: site.date_format }}</span>
         </a>
     </li>
   {% endfor %}

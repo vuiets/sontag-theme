@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
+description: "A brief greeting from Dr. Jekyll"
+author: Visahavel Parthasarathy
 date:   2016-05-14 17:04:20 +0530
 categories: jekyll update
 ---

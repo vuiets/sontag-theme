@@ -1,19 +1,41 @@
 ---
-layout: default
+layout: post-default
 ---
-<article>
+<article class="mw6 left">
 
   <header>
-    <h1 class="f4 f3-l">{{ page.title }}</h1>
-    <p class="f6 f5-l">
-      <time datetime="{{ page.date }}">
-        {{ page.date | date: "%b %-d, %Y" }}
-      </time>
-    </p>
+    <h3 class="f3 mb0">
+      {{ page.title }}
+    </h3>
+    <small>
+      <time class="near-black">{{ page.date | date: site.date_format }}</time>
+      {% if page.author %}
+       • by <span class="near-black">{{ page.author }}</span>
+      {% endif %}
+    </small>
   </header>
 
-  <div>
+  <div class="mw2 pt3 bb bw1">
+  </div>
+
+  <div class="pt4">
     {{ content }}
   </div>
 
 </article>
+
+<div class="pagination cf mw6 left pt4">
+
+  {% if page.previous %}
+    <a class="fl link dim gray" href="{{ page.previous.url }}" title="previous post">
+      &lt; {{ page.previous.title }}
+    </a>
+  {% endif %}
+
+  {% if page.next %}
+    <a class="fr link dim gray" href="{{ page.next.url }}" title="next post">
+      {{ page.next.title }} &gt;
+    </a>
+  {% endif %}
+
+</div>
