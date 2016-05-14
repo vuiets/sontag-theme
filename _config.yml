@@ -8,6 +8,7 @@
 # Site settings
 title: Journal
 email: wizvishak@gmail.com
+author: Visahavel Parthasarathy
 description: > # this means to ignore newlines until "baseurl:"
   A lightweight theme for your journalling needs
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -16,4 +17,7 @@ twitter_username: wizvishak
 github_username:  wizvishak
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+
+redcarpet:
+  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]

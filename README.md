@@ -1,10 +1,13 @@
 # sontag-theme
 
 ## description
-:writing_hand_tone3: A Jekyll theme for journalling.
+:pencil: A Jekyll theme for journalling.
 
 ## learning
 - Jekyll
 - CSS
 - Markdown
 - Bundler
+
+## WIP
+Still very much a work in progress.
