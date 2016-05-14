@@ -1,38 +1,8 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
-    </div>
-
+<footer class="mw8 center pv3 pv5-ns ph3 ph5-ns">
+  <div>
+      Built with &hearts;</br>
+      + <a href="http://jekyllrb.com" title="Jekyll - Site Generator for blogs" class="f6 link dark-gray">Jekyll</a> &amp; <a href="http://tachyons.io" title="Tachyons - CSS for designing at the speed of light" class="f6 link dark-gray">Tachyons</a>
+      </br>
+      by <a href="https://twitter.com/wizvishak" title="Jekyll - Site Generator for blogs" class="f6 link dark-gray">@{{site.twitter_username}}</a>
   </div>
-
 </footer>
