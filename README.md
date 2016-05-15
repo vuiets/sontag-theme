@@ -5,9 +5,12 @@
 
 ## learning
 - Jekyll
-- CSS
+- CSS Layouts
 - Markdown
-- Bundler
+- Ruby Gems
 
-## WIP
-A prototype is ready.
+## wip
+A prototype is ready. But a lot is left to be done
+- [ ] CSS Clean Up
+- [ ] 404 Page
+- [ ] Support Markdown Formatting
