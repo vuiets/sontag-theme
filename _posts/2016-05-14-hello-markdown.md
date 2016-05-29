@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hi, Mardown!"
+title: "Hi, Markdown!"
 date: 2016-05-15
 categories:
 ---
@@ -8,10 +8,15 @@ categories:
 The following text has been taken from [this page](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet).
 
 # H1
+
 ## H2
+
 ### H3
+
 #### H4
+
 ##### H5
+
 ###### H6
 
 
@@ -54,7 +59,7 @@ Some text to show that the reference links can follow later.
 
 
 
-Inline `code` has `back-ticks around` it.
+Inline `code` has `back-ticks` around it.
 
 
 
@@ -73,7 +78,13 @@ No language indicated, so no syntax highlighting.
 But let's throw in a <b>tag</b>.
 ```
 
-
+```html
+<head>
+...
+<link href="/css/syntax.css" rel="stylesheet">
+...
+</head>
+```
 
 Colons can be used to align columns.
 
