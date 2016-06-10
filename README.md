@@ -1,9 +1,14 @@
 # sontag-theme
+> :pencil: A Jekyll theme for journalling.
 
-## description
-:pencil: A Jekyll theme for journalling.
+## install
+Clone this repo.
+```
+jekyll serve
+```
 
-## wip
-The end is near.
-- [ ] 404 Page
-- [ ] Markdown Formatting Colors
+## contribute
+Feel free to open issues, request features or send in pull requests for the former two.
+
+## license
+[MIT](https://github.com/wizvishak/sontag-theme/blob/master/LICENSE.md)

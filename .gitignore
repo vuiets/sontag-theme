@@ -2,7 +2,11 @@
 _site
 _drafts
 .sass-cache
+.asset-cache
 .jekyll-metadata
 
 # dependency management
 Gemfile
+
+# editor dump
+.idea

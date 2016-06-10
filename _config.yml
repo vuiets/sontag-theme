@@ -6,8 +6,8 @@ description: >
   A lightweight theme for your journalling needs
 baseurl: ""
 url: "http://yourdomain.com"
-twitter_username: wizvishak
-github_username:  wizvishak
+twitter_username:
+github_username:
 date_format: "%-d %b %Y"
 
 # Build settings
@@ -15,7 +15,3 @@ markdown: redcarpet
 
 redcarpet:
   extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
-
-# Plugins
-gems:
-  - jekyll-assets
